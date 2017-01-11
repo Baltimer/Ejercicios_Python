@@ -32,3 +32,18 @@ diccionarioAsignacion={	 0:"T",
 						}
 
 listaAsignacion=["T","R","W","A","G","M","Y","F","P","D","X","B","N","J","Z","S","Q","V","H","L","C","K","E"]
+
+def calcularLetraNIF(dni):
+	for numero in dni:
+
+def esCorrecto(DNI):
+	if len(DNI) != 9:
+		print("No has introducido un DNI")
+		return False
+
+	for posicion in DNI:
+		if 0 <= DNI.index(posicion) <= 7 and posicion.isdigit() != True:
+			return False
+		else DNI.index(posicion) == 8 and posicion.islower() and (posicion.isalpha() or posicion.isdigit()):
+			return False
+	return True

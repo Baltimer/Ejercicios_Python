@@ -11,7 +11,7 @@ def esCorrecto(DNI):
 	for posicion in DNI:
 		if 0 <= DNI.index(posicion) <= 7 and posicion.isdigit() != True:
 			return False
-		elif DNI.index(posicion) == 8 and posicion.isalpha() and posicion.islower():
+		else DNI.index(posicion) == 8 and posicion.islower() and (posicion.isalpha() or posicion.isdigit()):
 			return False
 	return True
 
