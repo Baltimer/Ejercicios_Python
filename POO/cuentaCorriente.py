@@ -88,4 +88,4 @@ def nuevoCliente():
 #lluis = Cliente("Lluis", "Cifre Font", "casa", 123456, 43215678, 100)
 numeroClientes = input("Cuantos nuevos clientes quieres introducir")
 for numCliente in range(0, numeroCliente, 1)
-	nuevoCliente()
+	nuevoCliente()	
