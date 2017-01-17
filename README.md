@@ -3,7 +3,7 @@ Repositorio de Ejercicios en Phyton
 
 Ejercicios que he ido realizando a lo largo del primer curso (y posiblemente segundo) del ciclo de grado superior de **Desarrollo de Aplicaciones Web**.
 
-Éstos ejercicios se han ido resolviendo en clase a medida que he ido adquiriendo los conocimientos para resolverlos, así que muy probablemente no estén optimizados.
+Ã‰stos ejercicios se han ido resolviendo en clase a medida que he ido adquiriendo los conocimientos para resolverlos, asÃ­ que muy probablemente no estÃ©n optimizados.
 
 ## Finalidad del Repositorio
 
